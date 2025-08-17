@@ -5,7 +5,7 @@ int main (){
                          0,1,1,1,
                          1,1,1,0,
                          0,1,0,1};
-    printf(matriz[][]);    
+    printf(matriz);    
     
     return 0;
 }

@@ -12,9 +12,9 @@ int main (){
     printf("Diga qtos numero tera sua sequencia: ");
     scanf("%d", &n);
     printf("Digite uma sequencia em ordem crescente: ");
-    for(i=0;i<n;i++){
+    for(i=0;i<n;i++)
         scanf("%d", &v[i]);
-    }
+    
     printf("Digite o numero a ser procurado: ");
     scanf("%d", &x);
 /* busca binaria */

@@ -4,13 +4,14 @@
 #include <math.h>
 #include <time.h>
 #include <stdbool.h>
-void clear_input() 
-{
+
+void clear_input() {
     int g;
     while ((g = getchar()) != '\n' && g != EOF) { }
 }
-void imcc() //CASE 2
-{
+
+//CASE 2
+void imcc() {
     float peso=0, altura=0, imc=0;
     printf("Para calcular seu IMC insira seu peso(KG): ");
     scanf("%f", &peso);

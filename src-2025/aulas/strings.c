@@ -1,6 +1,7 @@
-#include <stdio.h> //blibioteca de comandos
+#include <stdio.h> // blibioteca I/O
+
 int main () {
-    char txt[100]; //string
+    char txt[100];
     scanf("%s", txt); // comando para inserir oq vou escrever no terminal
     printf("%s\n\n", txt); // vai mostrar
     int i; // numero inteiro
